@@ -1,105 +1,112 @@
-# Smart Utility Toolkit App
+# Smart Utility Toolkit App 📱
 
-## 📱 Overview
+## Overview
+The Smart Utility Toolkit App is a mobile application built with React Native (Expo) that provides essential utility tools in one place. This app was developed as part of the HNG Internship Mobile Track Stage 1 Task, extending the Stage 0 application by adding a fully functional Task/Checklist Manager with offline persistence. The application is designed to work seamlessly offline, providing users with reliable tools anytime without requiring internet connectivity.
 
-The Smart Utility Toolkit is a mobile application built with React Native that provides essential everyday tools in one place. The app focuses on clean architecture, smooth navigation, and a simple, professional user experience.
-
----
-
-## ✨ Features
-
+## Features 🚀
 ### 🔄 Unit Converter
+- Convert units easily
+- Supports multiple measurement types
+- Fast and accurate conversion
 
-* Convert between different units:
+### 📝 Task / Checklist Manager
+Users can:
+- Create tasks
+- Mark tasks as completed
+- Edit existing tasks
+- Delete tasks
+- Store tasks locally
+- Access tasks offline
+- Maintain persistent data after app restart
 
-  * Length (meters, kilometers, etc.)
-  * Temperature (Celsius, Fahrenheit)
-  * Weight (basic support)
-* Fast and accurate calculations
+## Offline Persistence 💾
+The Task Manager uses AsyncStorage to store tasks locally on the device. This ensures tasks remain saved after closing the app, the app works without internet connection, and provides fast and reliable data access.
 
-### 📝 Notes
+## Tech Stack 🛠️
+- React Native
+- Expo
+- Expo Router
+- AsyncStorage
+- JavaScript
+- React Hooks
 
-* Create and store notes
-* Persistent storage using AsyncStorage
-* Simple and clean interface
+## App Structure 📂
+app/
+│
+├── (tabs)/
+│   ├── index.tsx        # Home Screen
+│   ├── converter.tsx    # Unit Converter
+│   ├── notes.tsx        # Task Manager
+│   ├── _layout.tsx      # Tab Navigation
+│
+├── _layout.tsx          # Root Layout
 
-### 🧮 Calculator
-
-* Basic arithmetic operations:
-
-  * Addition, subtraction, multiplication, division
-* Error handling for invalid inputs
-* Responsive button layout
-
----
-
-## 🏗️ Architecture
-
-The project follows a clean and scalable structure:
-
-src/
-
-* components/ → Reusable UI components
-* screens/ → App screens (Converter, Notes, Calculator)
-* navigation/ → Navigation configuration
-* utils/ → Business logic (conversion functions)
-
----
-
-## 🚀 Tech Stack
-
-* React Native (Expo)
-* React Navigation
-* AsyncStorage
-
----
-
-## 📦 Installation
+## Installation & Setup ⚙️
+To run this project locally:
 
 1. Clone the repository:
+git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
 
-```bash
-git clone https://github.com/your-username/smart-utility-toolkit.git
-```
+2. Navigate into the project:
+cd YOUR-REPO-NAME
 
-2. Install dependencies:
-
-```bash
+3. Install dependencies:
 npm install
-```
 
-3. Start the app:
-
-```bash
+4. Start the development server:
 npx expo start
-```
 
----
+## How to Use the App 📱
 
-## 📲 APK Preview
+### Unit Converter
+1. Open the Converter tab
+2. Enter a value
+3. Select units
+4. View converted result
 
-Appetize Preview Link:
-[Paste your Appetize link here]
+### Task Manager
+1. Open the Tasks tab
+2. Enter a task
+3. Tap Add
+4. Tap a task to mark it complete
+5. Tap Edit to modify
+6. Tap Delete to remove
 
----
+Tasks are automatically saved and restored when the app restarts.
 
-## 📁 Repository
+## APK Preview 🌐
+App preview available via Appetize:
+PASTE YOUR APPETIZE LINK HERE
 
-GitHub Link:
-[Paste your GitHub repo link here]
+## GitHub Repository 🔗
+PASTE YOUR GITHUB REPOSITORY LINK HERE
 
----
+## Development Process 🧠
+The development process followed these steps:
+1. Built initial utility toolkit during Stage 0
+2. Designed Task Manager interface
+3. Implemented task CRUD functionality
+4. Integrated AsyncStorage for persistence
+5. Tested offline functionality
+6. Ensured consistent UI across tabs
+7. Built APK and deployed preview
 
-## 🎯 Project Goal
+## Challenges Encountered ⚠️
+Some challenges faced during development included managing local storage synchronization, handling task editing logic, ensuring persistent storage reliability, maintaining consistent navigation structure, and fixing UI dark mode background issues. These challenges helped improve debugging and state management skills.
 
-This project was developed to demonstrate:
+## Lessons Learned 📚
+This project improved my understanding of React Native development, mobile state management, local storage with AsyncStorage, offline-first application design, UI consistency across screens, and debugging mobile applications.
 
-* Strong mobile development fundamentals
-* Clean architecture and code organization
-* Functional and user-friendly UI design
+## Future Improvements 🔮
+Potential enhancements include task priority levels, task deadlines, search functionality, notification reminders, dark mode support, and improved animations.
 
----
+## Author 👤
+Name: Owoade Gratitude 
+Track: HNG Internship Mobile Track  
+Stage: Stage 1  
 
-## 👨‍💻 Author
+## Acknowledgment 🙌
+This project was completed as part of the HNG Internship Program aimed at improving real-world software development skills.
 
-GIGOMED
+## License 📄
+This project is for educational purposes under the HNG Internship program.
