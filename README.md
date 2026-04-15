@@ -1,50 +1,105 @@
-# Welcome to your Expo app 👋
+# Smart Utility Toolkit App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📱 Overview
 
-## Get started
+The Smart Utility Toolkit is a mobile application built with React Native that provides essential everyday tools in one place. The app focuses on clean architecture, smooth navigation, and a simple, professional user experience.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-2. Start the app
+### 🔄 Unit Converter
 
-   ```bash
-   npx expo start
-   ```
+* Convert between different units:
 
-In the output, you'll find options to open the app in a
+  * Length (meters, kilometers, etc.)
+  * Temperature (Celsius, Fahrenheit)
+  * Weight (basic support)
+* Fast and accurate calculations
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 📝 Notes
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* Create and store notes
+* Persistent storage using AsyncStorage
+* Simple and clean interface
 
-## Get a fresh project
+### 🧮 Calculator
 
-When you're ready, run:
+* Basic arithmetic operations:
+
+  * Addition, subtraction, multiplication, division
+* Error handling for invalid inputs
+* Responsive button layout
+
+---
+
+## 🏗️ Architecture
+
+The project follows a clean and scalable structure:
+
+src/
+
+* components/ → Reusable UI components
+* screens/ → App screens (Converter, Notes, Calculator)
+* navigation/ → Navigation configuration
+* utils/ → Business logic (conversion functions)
+
+---
+
+## 🚀 Tech Stack
+
+* React Native (Expo)
+* React Navigation
+* AsyncStorage
+
+---
+
+## 📦 Installation
+
+1. Clone the repository:
 
 ```bash
-npm run reset-project
+git clone https://github.com/your-username/smart-utility-toolkit.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Install dependencies:
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+3. Start the app:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npx expo start
+```
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## 📲 APK Preview
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Appetize Preview Link:
+[Paste your Appetize link here]
+
+---
+
+## 📁 Repository
+
+GitHub Link:
+[Paste your GitHub repo link here]
+
+---
+
+## 🎯 Project Goal
+
+This project was developed to demonstrate:
+
+* Strong mobile development fundamentals
+* Clean architecture and code organization
+* Functional and user-friendly UI design
+
+---
+
+## 👨‍💻 Author
+
+GIGOMED
